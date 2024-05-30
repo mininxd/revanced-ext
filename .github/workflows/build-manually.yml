@@ -1,4 +1,4 @@
-name: Build Manual
+name: Build APK and release
 on:
   workflow_dispatch:
 jobs:
