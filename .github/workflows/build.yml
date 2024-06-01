@@ -60,17 +60,6 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
-      - name: Upload modules to release
-        uses: svenstaro/upload-release-action@v2
-        with:
-          body: ${{ steps.get_output.outputs.BUILD_LOG }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./build/*
-          release_name: ReVanced
-          tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-          file_glob: true
-          overwrite: true
-
       - name: Update changelog and Magisk update json
         id: update_config
         run: |
