@@ -1,4 +1,4 @@
-name: Check Update
+name: CI
 on:
   workflow_dispatch:
   schedule:
