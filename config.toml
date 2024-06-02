@@ -23,9 +23,9 @@ arch = "both"
 # build only yt and music above
 
 [Music-Extended]
-enabled = false
+# enabled = false
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
+patches-source = "mininxd/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
@@ -35,9 +35,9 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
 [YouTube-Extended]
-enabled = false
+# enabled = false
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
+patches-source = "mininxd/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
