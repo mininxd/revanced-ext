@@ -2,7 +2,6 @@ Music (arm64-v8a): 7.03.52
 Music (arm-v7a): 7.03.52  
 Music-Extended (arm64-v8a): 7.03.51  
 Music-Extended (arm-v7a): 7.03.51  
-Reddit-Extended: 2024.17.0  
 YouTube: 19.11.43  
 YouTube-Extended: 19.20.34  
 
