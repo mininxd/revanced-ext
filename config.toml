@@ -44,7 +44,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Photos-Revanced]
-enabled = true
+enabled = false
 app-name = "Google Photos"
 build-mode = "both"
 patches-source = "ReVanced/revanced-patches"
@@ -56,8 +56,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 [Reddit-Extended]
 enabled = false
 build-mode = "apk"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+patches-source = "ReVanced/revanced-patches"
+integrations-source = "ReVanced/revanced-integrations"
+cli-source = "ReVanced/revanced-cli"
+rv-brand = "ReVanced"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
