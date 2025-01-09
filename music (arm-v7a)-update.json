@@ -1,6 +1,6 @@
 {
-  "version": "v7.29.52 (patches: 5.8.0)",
-  "versionCode": 31,
-  "zipUrl": "https://github.com/mininxd/revanced-ext/releases/download/31/music-revanced-magisk-v7.29.52-arm-v7a.zip",
+  "version": "v7.29.52 (patches: 5.8.1)",
+  "versionCode": 32,
+  "zipUrl": "https://github.com/mininxd/revanced-ext/releases/download/32/music-revanced-magisk-v7.29.52-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/mininxd/revanced-ext/update/build.md"
 }
