@@ -1,0 +1,30 @@
+name: Download RVP and Put on Release
+on:
+  workflow_dispatch:
+jobs:
+  run:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: |
+          sudo apt install -y curl wget unzip zip
+
+      - name: Download APK
+        run: |
+          sudo wget "https://www.dropbox.com/scl/fi/1kff7y02w4c7zr0dwfsxz/patches-5.6.2.3.rvp?rlkey=eegail5wfrw7rd0903tynhgvu&st=ukfja31u&dl=1"
+          tree ./
+          mv "patches-5.6.2.3.rvp?rlkey=eegail5wfrw7rd0903tynhgvu&st=ukfja31u&dl=1" patches-5.6.2.3.rvp
+          tree ./
+
+      - name: Upload to Release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          body: |
+              feat(YouTube Music - Ads): hide fullscreen ads `youtube premium offer`
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./*.rvp
+          release_name: Patches 5.6.2_3
+          tag: 5.6.2.3
+          file_glob: true
+          overwrite: true
