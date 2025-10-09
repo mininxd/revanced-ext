@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.test
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# Package locks (optional; uncomment if you don’t want to commit them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# TypeScript (if added later)
+*.tsbuildinfo
+
+# Misc
+.nyc_output
