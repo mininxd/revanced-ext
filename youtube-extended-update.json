@@ -1,6 +1,6 @@
 {
-  "version": "v20.05.46 (patches rv/5.14.1)",
-  "versionCode": 52,
-  "zipUrl": "https://github.com/mininxd/revanced-ext/releases/download/52/youtube-revanced-extended-magisk-v20.05.46-all.zip",
+  "version": "v20.05.46 (patches 5.14.1)",
+  "versionCode": 53,
+  "zipUrl": "https://github.com/mininxd/revanced-ext/releases/download/53/youtube-revanced-extended-magisk-v20.05.46-all.zip",
   "changelog": "https://raw.githubusercontent.com/mininxd/revanced-ext/update/build.md"
 }
