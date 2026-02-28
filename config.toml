@@ -2,23 +2,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 parallel-jobs = 1
 compression-level = 9  
 
-[YouTube]
-enabled = false
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
-
-[Music]
-enabled = false
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
-
-[Music-Extended]
+[Music-Morphe]
 app-name = "Music"
 patches-source = "mininxd/revanced-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -27,8 +11,10 @@ build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-[YouTube-Extended]
+
+[YouTube-Morphe]
 app-name = "YouTube"
 patches-source = "mininxd/revanced-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -37,12 +23,3 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Reddit-Extended]
-enabled = false
-build-mode = "apk"
-patches-source = "ReVanced/revanced-patches"
-integrations-source = "ReVanced/revanced-integrations"
-cli-source = "ReVanced/revanced-cli"
-rv-brand = "ReVanced"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
