@@ -21,21 +21,22 @@ arch = "both"
 [Music-Extended]
 app-name = "Music"
 patches-source = "mininxd/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+cli-source = "MorpheApp/morphe-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [YouTube-Extended]
 app-name = "YouTube"
 patches-source = "mininxd/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Reddit-Extended]
 enabled = false
